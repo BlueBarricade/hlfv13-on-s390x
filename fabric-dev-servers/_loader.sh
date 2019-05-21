@@ -1,9 +1,9 @@
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
-# 
+#
 # http://www.apache.org/licenses/LICENSE-2.0
-# 
+#
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -27,8 +27,8 @@ if [ "${HL_FABRIC_START_TIMEOUT}" ]; then
 fi
 
 if [ -z ${FABRIC_VERSION+x} ]; then
- echo "FABRIC_VERSION is unset, assuming hlfv12"
- export FABRIC_VERSION="hlfv12"
+ echo "FABRIC_VERSION is unset, assuming hlfv13"
+ export FABRIC_VERSION="hlfv13"
 else
  echo "FABRIC_VERSION is set to '$FABRIC_VERSION'"
 fi
