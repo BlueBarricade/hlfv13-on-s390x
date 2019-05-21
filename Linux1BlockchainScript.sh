@@ -90,7 +90,7 @@ echo -e "*** Clone and install the Coposer Tools repository.***\n"
 mkdir ~/fabric-tools
 cd ~/fabric-tools
 curl -O https://raw.githubusercontent.com/BlueBarricade/hlfv13-on-s390x/blob/master/fabric-dev-servers.zip
-unzip -xvf fabric-dev-servers.zip
+unzip fabric-dev-servers.zip
 export FABRIC_VERSION=hlfv13
 echo "export FABRIC_VERSION=hlfv12" >> $HOME/.profile
 ./downloadFabric.sh
