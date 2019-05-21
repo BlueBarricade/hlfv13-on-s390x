@@ -90,6 +90,9 @@ echo -e "*** Clone and install the Coposer Tools repository.***\n"
 cd ~/hlfv13-on-s390x/fabric-dev-servers
 export FABRIC_VERSION=hlfv13
 echo "export FABRIC_VERSION=hlfv12" >> $HOME/.profile
+chmod u+x ./downloadFabric.sh
+chmod u+x ./startFabric.sh
+chmod u+x ./createPeerAdminCard.sh
 ./downloadFabric.sh
 ./startFabric.sh
 ./createPeerAdminCard.sh
